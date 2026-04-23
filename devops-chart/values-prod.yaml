@@ -1,0 +1,12 @@
+replicaCount: 3
+
+image:
+  repository: eswar1806/devops-upp
+  tag: "5"
+
+service:
+  type: NodePort
+  port: 80
+
+env:
+  name: prod
